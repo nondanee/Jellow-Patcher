@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mapbox.mapboxsdk.maps.MapView android:id="@id/mapView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mapbox_foregroundLoadColor="@color/image_placeholder" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/illustration_footprint_mask" android:scaleType="fitXY" />
+    <com.ruguoapp.jike.business.me.ui.MeFollowButton android:id="@id/btnBack" android:layout_width="fill_parent" android:layout_height="100.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

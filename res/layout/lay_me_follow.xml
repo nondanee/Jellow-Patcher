@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/layFollow" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/viewBg" android:background="@color/black_ar30" android:layout_width="126.0dip" android:layout_height="46.0dip" />
+    <TextView android:textSize="@dimen/text_14" android:textColor="@color/text_dark_gray" android:gravity="center" android:layout_gravity="center" android:id="@id/tvFollow" android:background="@color/white" android:layout_width="116.0dip" android:layout_height="36.0dip" android:text="关注" />
+</FrameLayout>

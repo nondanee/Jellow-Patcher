@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="JikeTheme.QQAssistActivity" parent="@style/JikeTheme" />
+    <style name="JikeTheme.SystemUi.Default.Transparent.Compat" parent="@style/JikeTheme.SystemUi.Default.Transparent" />
+    <style name="TransparentTheme.Compat" parent="@style/TransparentTheme" />
+</resources>

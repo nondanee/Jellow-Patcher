@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruguoapp.jike.view.widget.GradualRelativeLayout android:background="@color/jike_item_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:mask_radius="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/gradual_mask" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jike_list_margin_15" layout="@layout/list_item_ugc_author" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layRefer" android:background="@color/jike_background_gray" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="@dimen/jike_list_margin_15" android:layout_marginStart="@dimen/jike_list_margin_15" android:layout_marginEnd="@dimen/jike_list_common_margin" />
+    </LinearLayout>
+</com.ruguoapp.jike.view.widget.GradualRelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ruguoapp.jike.view.widget.RgViewPager android:id="@id/real_tab_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/lay_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/lay_media_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <eightbitlab.com.blurview.BlurView android:layout_gravity="bottom" android:id="@id/bottom_blur_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:blurOverlayColor="@color/black_ar85">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="@dimen/home_bottom_tab_height" app:tabGravity="fill" app:tabIndicatorHeight="0.0dip" app:tabMaxWidth="0.0dip" app:tabMode="fixed" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" />
+    </eightbitlab.com.blurview.BlurView>
+    <ImageView android:id="@id/iv_tab_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_above="@id/bottom_blur_view" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/iv_post" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="25.0dip" android:src="@drawable/ic_tabbar_post" android:layout_above="@id/bottom_blur_view" android:layout_alignParentEnd="true" app:lottie_fileName="sent_animation.zip" />
+</RelativeLayout>

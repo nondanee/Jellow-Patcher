@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/lay_fragment_container" android:background="@color/jike_background_gray" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.ruguoapp.jike.view.widget.CreatePostFabView android:id="@id/btnCreatePost" android:layout_width="@dimen/fab_create_original_post_size" android:layout_height="@dimen/fab_create_original_post_size" android:layout_margin="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

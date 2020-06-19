@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lay_notification_entry" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" style="?actionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_notification_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tabbar_chat_unselected" android:tint="@color/white" />
+    <com.ruguoapp.jike.widget.view.CircleTextView android:layout_gravity="center" android:id="@id/tv_notification_count" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+</FrameLayout>

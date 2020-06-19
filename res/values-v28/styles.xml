@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V28.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V28.Theme.AppCompat.Light" />
+    <style name="JikeTheme.SystemUi.Activity" parent="@style/JikeTheme.SystemUi">
+        <item name="android:colorBackground">@color/jike_background_white</item>
+        <item name="android:textColorPrimary">@color/jike_text_dark_gray</item>
+        <item name="android:windowBackground">@color/jike_background_white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHint">@color/jike_text_light_gray</item>
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+        <item name="android:ambientShadowAlpha">0.016</item>
+        <item name="android:spotShadowAlpha">0.08</item>
+        <item name="android:fallbackLineSpacing">false</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="colorAccent">@color/jike_blue</item>
+        <item name="colorPrimary">@color/jike_background_white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="jike_search_poi_bar_input_color">@color/jike_text_dark_gray</item>
+        <item name="jike_search_poi_bar_input_hint_color">@color/white</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+</resources>

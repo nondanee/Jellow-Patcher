@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="io.iftech.jellow" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:maxSdkVersion="22" android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <permission android:name="io.iftech.jellow.permission.JPUSH_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="io.iftech.jellow.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.ruguoapp.jike.global.RgApp" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="false" android:theme="@style/JikeTheme.SystemUi.Default" android:usesCleartextTraffic="true">
+        <meta-data android:name="android.max_aspect" android:value="2.4"/>
+        <meta-data android:name="android.allow.multiple_resumed_activities" android:value="true"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.ruguoapp.jike.business.launch.ui.SplashActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Fade.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="launch.jk" android:scheme="@string/scheme"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTask" android:name="com.ruguoapp.jike.business.main.ui.MainActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Fade" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.ruguoapp.jike.business.main.ui.topicdetail.involved.TopicInvolvedActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.ruguoapp.jike.business.picture.ui.PictureActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Transparent.Compat.FullscreenCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.ruguoapp.jike.business.picture.ui.AvatarPictureActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Transparent.Compat.FullscreenCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.ruguoapp.jike.business.web.ui.WebActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.ruguoapp.jike.business.search.ui.SearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.search.ui.SearchSingleModeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.video.ui.activity.videolist.VideoListActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Transparent.Compat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.video.ui.activity.VideoMessageActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.video.ui.activity.MessageLoadActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Transparent.Compat.Fade"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.comment.ui.PersonalUpdate2MessageActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.comment.ui.MessageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_view_conversation" android:name="com.ruguoapp.jike.business.comment.ui.CommentConversationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_list_merged_mentions_notification" android:name="com.ruguoapp.jike.business.notification.ui.MergedMentionsNotificationActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.user.ui.UserListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_choose_location" android:name="com.ruguoapp.jike.business.location.ui.LocationChooserActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_industry_chooser" android:name="com.ruguoapp.jike.business.personal.ui.IndustryChooserActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_school_chooser" android:name="com.ruguoapp.jike.business.personal.ui.SchoolChooserActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.personal.ui.EditSchoolInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.ui.activity.FullScreenFragmentActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_medal_detail" android:name="com.ruguoapp.jike.business.personal.ui.MedalDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_edit_personal_info" android:name="com.ruguoapp.jike.business.personal.ui.EditPersonalInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/bio" android:name="com.ruguoapp.jike.business.personal.ui.EditBioActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.yalantis.ucrop.UCropActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.lbs.ui.SearchPoiActivity" android:screenOrientation="portrait" android:theme="@style/SearchPoiTheme.LightTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.lbs.ui.PoiAroundOriginalPostsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/activity_title_debug" android:launchMode="singleTop" android:name="com.ruguoapp.jike.business.debug.ui.DebugActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_debug_video_entry" android:name="com.ruguoapp.jike.business.debug.ui.video.DebugVideoEntryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.debug.ui.video.DebugVideoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_image_selector" android:name="com.ruguoapp.jike.business.picture.ui.MediaPickActivity" android:screenOrientation="portrait" android:theme="@style/MediaPickTheme.LightTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.ruguoapp.jike.business.picture.ui.ImagePickDetailActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Fade"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.ruguoapp.jike.business.video.ui.activity.VideoPreviewActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Fade"/>
+        <service android:name="com.ruguoapp.jike.business.upgrade.UpgradeService"/>
+        <service android:name="com.ruguoapp.jike.video.ui.VideoService"/>
+        <service android:name="com.ruguoapp.jike.business.media.MediaService" android:process=":media"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_repost" android:name="com.ruguoapp.jike.business.personalupdate.create.ui.RepostMessageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_post_personal_update" android:launchMode="singleTask" android:name="com.ruguoapp.jike.business.personalupdate.create.ui.CreatePostActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="" android:launchMode="singleTask" android:name="com.ruguoapp.jike.business.personalupdate.create.ui.CreatePostPrepareActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.personalupdate.create.ui.LinkInputActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_comment_detail" android:name="com.ruguoapp.jike.business.comment.ui.CommentDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_diagnose" android:name="com.ruguoapp.jike.business.debug.ui.DiagnoseActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_scan" android:launchMode="singleTop" android:name="com.ruguoapp.jike.business.scan.ScanActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="io.iftech.jellow.action.SCAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/activity_title_selection" android:name="com.ruguoapp.jike.business.personalupdate.ui.PopularPersonalUpdateActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.personalupdate.ui.PeepPostActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.ui.activity.RgFragHubActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.hashtag.HashTagActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.scan.SelectImageDecodeActivity" android:screenOrientation="portrait" android:theme="@style/TransparentTheme.Compat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.story.ui.StoryIntroductionActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.story.ui.StoryGetCameraPermissionActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.story.ui.StorySingleActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.view.widget.dialog.DialogActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Transparent.Compat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.web.ui.FullWebActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Transparent.Compat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.login.newui.LoginWithCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.ruguoapp.jike.business.map.MapDetailActivity" android:screenOrientation="portrait" android:theme="@style/JikeTheme.SystemUi.Default.Transparent.Compat.FullscreenCompat"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ruguoapp.jike.business.story.ui.StorySlideActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/activity_title_receive_share_to_original_post" android:name="com.ruguoapp.jike.business.receiveshare.LandReceiveShareToJikeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="io.iftech.jellow.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <meta-data android:name="io.fabric.ApiKey" android:value="bc344210a05d1f8abc2ca3dc5a3bb5e8d65f5e94"/>
+        <activity android:label="@string/jwatcher_main" android:launchMode="singleTop" android:name="com.ruguoapp.jike.watcher.module.http.HttpCaptureDetailActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:launchMode="singleTop" android:name="com.ruguoapp.jike.watcher.module.base.SimpleDetailContentActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.ruguoapp.jike.watcher.module.DebugMainActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <service android:name="com.ruguoapp.jike.watcher.FloatBoardService"/>
+        <service android:enabled="false" android:icon="@drawable/ic_debug" android:label="调试工具" android:name="com.ruguoapp.jike.watcher.module.tile.DebugTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.amap.api.location.APSService"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="c6a8b9cad9453d8cd7b9ab98ad25c340"/>
+        <meta-data android:name="io.sentry.auto-init" android:value="false"/>
+        <provider android:authorities="io.iftech.jellow.vcompress.cp" android:exported="false" android:name="io.iftech.android.vcompress.context.RuntimeTrojanProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.jpush.android.ui.PushActivity" android:process="@string/push_jiguang_process_name" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="io.iftech.jellow"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.PushService" android:process="@string/push_jiguang_process_name">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER"/>
+                <action android:name="cn.jpush.android.intent.REPORT"/>
+                <action android:name="cn.jpush.android.intent.PushService"/>
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:name="cn.jpush.android.service.PushReceiver" android:process="@string/push_jiguang_process_name">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
+                <category android:name="io.iftech.jellow"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" android:process="@string/push_jiguang_process_name"/>
+        <receiver android:enabled="true" android:exported="false" android:name="io.iftech.android.push.jiguang.JPushTagAliasReceiver" android:process="@string/push_jiguang_process_name">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE"/>
+                <category android:name="io.iftech.jellow"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="io.iftech.android.push.jiguang.JPushReceiver">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"/>
+                <action android:name="cn.jpush.android.intent.CONNECTION"/>
+                <category android:name="io.iftech.jellow"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="io.iftech.android.push.jiguang.JPushWakeReceiver" android:process="@string/push_jiguang_process_name">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.WakedReceiver"/>
+                <category android:name="io.iftech.jellow"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="io.iftech.android.push.jiguang.JPushService" android:process="@string/push_jiguang_process_name">
+            <intent-filter>
+                <action android:name="cn.jiguang.user.service.action"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="cn.jpush.android.service.JNotifyActivity" android:process="@string/push_jiguang_process_name" android:taskAffinity="jpush.custom" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.JNotifyActivity"/>
+                <category android:name="io.iftech.jellow"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="io.iftech.jellow.push.provider.jiguang" android:exported="false" android:initOrder="1" android:name="io.iftech.android.push.jiguang.JPushProvider"/>
+        <provider android:authorities="io.iftech.jellow.push.provider.jiguang.process" android:exported="false" android:initOrder="2000" android:name="io.iftech.android.push.jiguang.ProcessProvider" android:process="@string/push_jiguang_process_name"/>
+        <service android:enabled="true" android:exported="true" android:name="cn.jpush.android.service.DaemonService" android:process="@string/push_jiguang_process_name">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService"/>
+                <category android:name="io.iftech.jellow"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="JPUSH_CHANNEL" android:value="developer-default"/>
+        <activity android:launchMode="singleTask" android:name="io.iftech.android.push.core.PushLandActivity" android:theme="@style/push_core_Theme.Transparent">
+            <intent-filter>
+                <action android:name="io.iftech.jellow.action.NOTIFICATION_CLICKED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="push.jk" android:scheme="jike"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="io.iftech.jellow.push.provider.core" android:exported="false" android:initOrder="3" android:name="io.iftech.android.push.core.IfPushProvider"/>
+        <activity android:launchMode="singleTop" android:name="com.ruguoapp.jike.core.route.RouteActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="page.jk" android:scheme="@string/scheme"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.oasisfeng.condom.version" android:value="2.5.0.20191210"/>
+        <provider android:authorities="io.iftech.jellow.crashlyticsinitprovider" android:exported="false" android:initOrder="90" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <provider android:authorities="io.iftech.jellow.mapboxtelemetryinitprovider" android:exported="false" android:initOrder="100" android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"/>
+        <service android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="io.iftech.jellow.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="io.iftech.jellow"/>
+        <service android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <provider android:authorities="io.iftech.jellow.SentryInitProvider" android:exported="false" android:name="io.sentry.android.core.SentryInitProvider"/>
+        <meta-data android:name="com.bumptech.glide.integration.webp.WebpGlideModule" android:value="GlideModule"/>
+        <meta-data android:name="JPUSH_APPKEY" android:value="361cf6e49155731af0bf3d80"/>
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruguoapp.jike.view.widget.snake.SnakeRelativeLayout android:id="@id/lay_snake" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ruguoapp.jike.view.widget.nestedscroll.NestedRefreshLayout android:id="@id/lay_nested_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.ruguoapp.jike.view.widget.nestedscroll.NestedCoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/lay_nested_refresh" android:layout_alignStart="@id/lay_nested_refresh">
+            <include layout="@layout/layout_me_content" />
+        </com.ruguoapp.jike.view.widget.nestedscroll.NestedCoordinatorLayout>
+        <io.iftech.android.widget.refresh.RefreshViewLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:widget_refresh_inverse_color="true" />
+    </com.ruguoapp.jike.view.widget.nestedscroll.NestedRefreshLayout>
+    <com.ruguoapp.jike.business.me.ui.MeFollowButton android:id="@id/follow" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</com.ruguoapp.jike.view.widget.snake.SnakeRelativeLayout>

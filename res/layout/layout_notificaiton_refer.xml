@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lay_refer" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_12" android:textColor="@color/jike_text_light_gray" android:ellipsize="end" android:id="@id/tv_refer" android:background="@color/jike_item_dark_gray" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip" android:lines="2" android:lineSpacingExtra="@dimen/line_spacing_text_12" />
+    <ImageView android:id="@id/iv_refer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+</RelativeLayout>

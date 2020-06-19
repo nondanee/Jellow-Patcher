@@ -1,0 +1,98 @@
+.class final Lcom/ruguoapp/jike/f/s$j0;
+.super Ljava/lang/Object;
+.source "DialogUtil.kt"
+
+# interfaces
+.implements Lh/b/h0/g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/ruguoapp/jike/f/s;->b(Lcom/ruguoapp/jike/ui/activity/RgGenericActivity;Ljava/lang/String;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        "R:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lh/b/h0/g<",
+        "TT;",
+        "Lh/b/u<",
+        "+TR;>;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/ruguoapp/jike/ui/activity/RgGenericActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/ruguoapp/jike/ui/activity/RgGenericActivity;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/ruguoapp/jike/f/s$j0;->a:Lcom/ruguoapp/jike/ui/activity/RgGenericActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/io/File;)Lh/b/q;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/io/File;",
+            ")",
+            "Lh/b/q<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    const-string v0, "file"
+
+    invoke-static {p1, v0}, Lkotlin/x/d/k;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iget-object v0, p0, Lcom/ruguoapp/jike/f/s$j0;->a:Lcom/ruguoapp/jike/ui/activity/RgGenericActivity;
+
+    invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v1, "file.absolutePath"
+
+    invoke-static {p1, v1}, Lkotlin/x/d/k;->a(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-static {v0, p1}, Lcom/ruguoapp/jike/f/d0;->a(Landroid/content/Context;Ljava/lang/String;)Lh/b/q;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/io/File;
+
+    invoke-virtual {p0, p1}, Lcom/ruguoapp/jike/f/s$j0;->a(Ljava/io/File;)Lh/b/q;
+
+    move-result-object p1
+
+    return-object p1
+.end method

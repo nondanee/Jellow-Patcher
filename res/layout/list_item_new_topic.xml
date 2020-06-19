@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruguoapp.jike.view.widget.GradualLinearLayout android:orientation="vertical" android:background="@color/jike_background_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/gradual_mask" android:padding="@dimen/jike_list_padding_15" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ruguoapp.jike.widget.view.badge.BadgeImageView android:id="@id/iv_topic_pic" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" app:dim_color="@color/image_color_filter_02" app:disable_reload="true" />
+        <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_topic_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="10.0dip" style="@style/JikeList.Main" />
+    </LinearLayout>
+</com.ruguoapp.jike.view.widget.GradualLinearLayout>

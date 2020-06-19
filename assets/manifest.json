@@ -1,0 +1,680 @@
+{
+  "conf": {
+    "message": {
+      "likeIcons": {
+        "like": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FjHmmC8oEjSVlJ8IRnYkLoKwC3Bz.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FnGF5s-yT26t0kU-kAn701RAJsKO.png"
+        },
+        "dislike": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/Fi603i5t28TqwF_OHEMGVNmnIl2Z.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FmxADTcAgPpJEn3gkQrXjkCRJThV.png"
+        },
+        "shock": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FkWasTyhk5CcioJ2NWEzWL5KdnD6.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/Fpn5-tL3pg6I8Hx86ShTRnMvrcwk.png"
+        },
+        "pray": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FpJD9C1aFO9fpA1Kszg2uX6mVhn5.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FnwN423ORiF5aCdCR55b0K6iYKuC.png"
+        },
+        "basketball": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FvYAz-0K0mClXHcowAb1YmRX7o94.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/Fuq6egciHiK587CTYdj3vDIoH3Vy.png"
+        },
+        "clock": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FsdVVSp8VNIpECrE1a8RhNO474l-.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FppK3eSK2qMaW_SiMQzAAfKt6xHy.png"
+        },
+        "football": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FioBMZ7iVdxqu0x9ZCk0Bc5AnbpS.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FpC-f9kOYiETeubps-8cMELBaMgw.png"
+        },
+        "hearteye": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FnTM3jMJwQ7Re4ViZbDTVA4ovQHj.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FrcN3TPRXJQd5BT74wbEpKDSR7rt.png"
+        },
+        "laugh": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FrcJQPQfPwp0SraU7MUThWC8ubh0.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FhCftGTGSovQa7Mos7S7HlqlqBA5.png"
+        },
+        "showerThought": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FqezT3HFY5hSYKVXnwLy9MqxNuo9.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FrSiDMCo8TRRN5pGr3BDQE-DBthY.png"
+        },
+        "unhappy": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FvGVGPxZemKizm245KgGAcV5QP3n.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FuAMjBUTf6y1saGkbq9gzJux1ozl.png"
+        },
+        "heart": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FgT8d-rnzm0-SMidJeDfKZBGG5dJ.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FhmkQr2JP9X3h752YlOsJDBIBVsR.png"
+        },
+        "goodNight": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/Fn96MZV3cWRCmp8P1QsxGcoL73yH.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FkzL8w0ZdK7e0xsIhnhMW6s5l7Vc.png"
+        },
+        "jcondom": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/Fqh09oTgCDCH2ehtATD3S7tVeEaq.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FnMFtrpwDc_v3qTL-gJfc7_zxKj7.png"
+        },
+        "guoguoFish": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FmfVazz-xSCE5ZJlHEi6uXcYUZ7m.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/Fp7yA1F1-H-u4IzyLutxu3_o_ah-.png"
+        },
+        "birthday": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FseT9XFCjfdxfc9HrQsGTEkRSrqA.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/Fsr0O4A9KFIVSRWO2Tfn1K82dxXn.png"
+        },
+        "pighead": {
+          "selectedIconUrl": "https://dv52n4sbalu69.cloudfront.net/FrK9QkRrRqlLnuAyWsVcqrI1804q.png",
+          "unselectedIconUrl": "https://dv52n4sbalu69.cloudfront.net//Fl8agBvguScX11PXYdFNFQXujx5i.png"
+        }
+      },
+      "linkIcons": {
+        "video": "https://dv52n4sbalu69.cloudfront.net/resources/icons/video_v3.4.4_1.png",
+        "audio": "https://dv52n4sbalu69.cloudfront.net/resources/icons/audio_v3.4.4_1.png",
+        "shopping": "https://dv52n4sbalu69.cloudfront.net/resources/icons/shopping-cart_v3.4.4_1.png",
+        "fenda": "https://dv52n4sbalu69.cloudfront.net/resources/icons/fenda_v3.4.4_1.png",
+        "instagram": "https://dv52n4sbalu69.cloudfront.net/resources/icons/instagram_v3.4.4_1.png",
+        "iosStore": "https://dv52n4sbalu69.cloudfront.net/resources/icons/app-store_v3.4.4_1.png",
+        "enjoy": "https://dv52n4sbalu69.cloudfront.net/resources/icons/enjoy_v3.4.4_1.png",
+        "vsco": "https://dv52n4sbalu69.cloudfront.net/resources/icons/vscocam_v3.4.4_1.png",
+        "zhihu": "https://dv52n4sbalu69.cloudfront.net/resources/icons/zhihu_v3.4.4_1.png",
+        "weibo": "https://dv52n4sbalu69.cloudfront.net/resources/icons/weibo_v3.4.4_1.png",
+        "wechat": "https://dv52n4sbalu69.cloudfront.net/resources/icons/wechat_v3.4.4_1.png",
+        "dxy": "https://dv52n4sbalu69.cloudfront.net/resources/icons/dxy_v3.4.4_2.png",
+        "36kr": "https://dv52n4sbalu69.cloudfront.net/resources/icons/36kr_v3.4.4_2.png",
+        "douban": "https://dv52n4sbalu69.cloudfront.net/resources/icons/douban_v3.4.4_4.png",
+        "facebook": "https://dv52n4sbalu69.cloudfront.net/resources/icons/facebook_v3.4.4_3.png",
+        "jianshu": "https://dv52n4sbalu69.cloudfront.net/resources/icons/jianshu_v3.4.4_3.png",
+        "pengpai": "https://dv52n4sbalu69.cloudfront.net/resources/icons/pengpai_v3.4.4_3.png",
+        "hupu": "https://dv52n4sbalu69.cloudfront.net/resources/icons/hupu_v3.4.4_3.png",
+        "jiemian": "https://dv52n4sbalu69.cloudfront.net/resources/icons/jiemian_v3.4.4_4.png",
+        "netease_news": "https://dv52n4sbalu69.cloudfront.net/resources/icons/netease_news_v3.4.4_3.png",
+        "ssp": "https://dv52n4sbalu69.cloudfront.net/resources/icons/ssp_v3.4.4_2.png",
+        "pingwest": "https://dv52n4sbalu69.cloudfront.net/resources/icons/pingwest_v3.4.4_2.png",
+        "xueqiu": "https://dv52n4sbalu69.cloudfront.net/resources/icons/xueqiu_v3.4.4_2.png",
+        "qdaily": "https://dv52n4sbalu69.cloudfront.net/resources/icons/qdaily_v3.4.4_4.png",
+        "huxiu": "https://dv52n4sbalu69.cloudfront.net/resources/icons/huxiu_v3.4.4_2.png",
+        "wikipedia": "https://dv52n4sbalu69.cloudfront.net/resources/icons/wikipedia_v3.4.4_4.png",
+        "jike": "https://dv52n4sbalu69.cloudfront.net/resources/icons/jike_v3.4.4_2.png",
+        "normalLink": "https://dv52n4sbalu69.cloudfront.net/resources/icons/normal-link_v3.4.4_1.png"
+      }
+    },
+    "topicRank": {
+      "titles": [
+        "上升最快",
+        "近期最热",
+        "即友创建"
+      ]
+    },
+    "customTopicSettings": {
+      "faqUrl": "https://post.okjike.com/2018/12/20/1332/",
+      "bannerImageUrl": "https://dv52n4sbalu69.cloudfront.net/custom-topic/Group.png?imageView/0/h/300/format/jpeg",
+      "faqMenuUrl": "jike://page.jk/web?url=https%3A%2F%2Fwww.okjike.com%2Fcustom-faq%2Fmenu.html&displayHeaderShareIcon=false",
+      "maxBotCount": 39
+    },
+    "pageUrls": {
+      "helpFaq": "jike://page.jk/web?url=https%3A%2F%2Fokjike.com%2Fsupport&displayFooter=false&displayHeaderShareIcon=false",
+      "authenticationNotice": "jike://page.jk/web?url=https%3A%2F%2Fokjike.com%2Fauthentification-notice&displayHeaderShareIcon=false&displayHeaderShareIcon=false",
+      "appAgreement": "https://post.jellow.club/agreement/",
+      "joinJike": "https://okjike.com/careers",
+      "searchResultFeedBack": "jike://page.jk/topic/5a5590339f8df1001188f1b4?tag=square",
+      "askFaq": "jike://page.jk/web?url=https%3A%2F%2Fyeah.okjike.com%2Fsupport%2F%23%2Fdetails%2FJUU0JUJCJTgwJUU0JUI5JTg4JUU2JTk4JUFGJUU0JUI4JTgwJUU0JUI4JUFBJUU1JUE1JUJEJUU5JTk3JUFFJUU5JUEyJTk4&displayFooter=false&displayHeaderShareIcon=false",
+      "mainUserFeedback": "https://h5.okjike.com/user-feedback/#/",
+      "myUserFeedback": "https://h5.okjike.com/user-feedback/#/my-feedback",
+      "shortcutsManageUrl": "jike://page.jk/web?url=https%3A%2F%2Fh5.okjike.com%2Fshortcut-edit&displayHeader=false",
+      "privacyPolicy": "https://post.jellow.club/privacy/"
+    },
+    "systemSettings": {
+      "requestTimeout": 30,
+      "cdnRequestTimeout": 5,
+      "cdnList": [
+        "dv52n4sbalu69.cloudfront.net",
+        "pic-txdv52n4sbalu69.cloudfront.net"
+      ],
+      "httpdns": true,
+      "enablePhoneTokenLogin": true
+    },
+    "friendDiscovery": {
+      "fakeNumberOfPhoneContacts": 52,
+      "fakeNumberOfWeiboContacts": 52
+    },
+    "ugc": {
+      "topicCategoryRank": [
+        {
+          "name": "已加入",
+          "alias": "subscribed"
+        },
+        {
+          "name": "拍一拍",
+          "alias": "Shoot"
+        },
+        {
+          "name": "心情",
+          "alias": "mood"
+        },
+        {
+          "name": "记录",
+          "alias": "notes"
+        },
+        {
+          "name": "生活",
+          "alias": "life"
+        },
+        {
+          "name": "吐槽",
+          "alias": "BB"
+        },
+        {
+          "name": "爱豆",
+          "alias": "star"
+        },
+        {
+          "name": "爱好",
+          "alias": "Hobby"
+        },
+        {
+          "name": "二次元",
+          "alias": "ACG"
+        },
+        {
+          "name": "游戏",
+          "alias": "Gamer"
+        },
+        {
+          "name": "科技",
+          "alias": "Geek"
+        },
+        {
+          "name": "找朋友",
+          "alias": "Friends"
+        },
+        {
+          "name": "求助",
+          "alias": "Question"
+        },
+        {
+          "name": "行业",
+          "alias": "Profession"
+        },
+        {
+          "name": "即刻",
+          "alias": "Jike"
+        }
+      ],
+      "testRank": [
+        {
+          "id": "5a58cfa4b97f2b75f35f294f",
+          "name": "生活",
+          "alias": "life"
+        },
+        {
+          "id": "5a58d14db97f2b75f35f2955",
+          "name": "影视",
+          "alias": "movie"
+        },
+        {
+          "id": "5a58d20fb97f2b75f35f2959",
+          "name": "明星",
+          "alias": "idol"
+        },
+        {
+          "id": "5a58d2e9b97f2b75f35f295e",
+          "name": "文化",
+          "alias": "culture"
+        },
+        {
+          "id": "5a58d648b97f2b75f35f2964",
+          "name": "科技",
+          "alias": "tech"
+        },
+        {
+          "id": "5a58d682b97f2b75f35f2966",
+          "name": "趣味",
+          "alias": "fun"
+        },
+        {
+          "id": "5a58d6c0b97f2b75f35f2968",
+          "name": "情感",
+          "alias": "mood"
+        },
+        {
+          "id": "5a58d6e3b97f2b75f35f296a",
+          "name": "时尚",
+          "alias": "fashion"
+        },
+        {
+          "id": "5a58d708b97f2b75f35f296c",
+          "name": "体育",
+          "alias": "sport"
+        },
+        {
+          "id": "5a58d730b97f2b75f35f296e",
+          "name": "音乐",
+          "alias": "music"
+        },
+        {
+          "id": "5a58d755b97f2b75f35f2970",
+          "name": "摄影",
+          "alias": "photo"
+        },
+        {
+          "id": "5a58d782b97f2b75f35f2972",
+          "name": "游戏",
+          "alias": "game"
+        },
+        {
+          "id": "5a58d7bfb97f2b75f35f2974",
+          "name": "萌宠",
+          "alias": "pet"
+        },
+        {
+          "id": "5a58d808b97f2b75f35f2976",
+          "name": "美图",
+          "alias": "picture"
+        },
+        {
+          "id": "5a58d82ab97f2b75f35f2978",
+          "name": "即刻",
+          "alias": "jike"
+        },
+        {
+          "id": "5a58d83fb97f2b75f35f297a",
+          "name": "其他",
+          "alias": "other"
+        }
+      ]
+    },
+    "topicRecommendation": {
+      "categories": [
+        {
+          "name": "推荐",
+          "alias": "RECOMMENDATION"
+        },
+        {
+          "name": "趣味",
+          "alias": "FUN"
+        },
+        {
+          "name": "娱乐",
+          "alias": "ENTERTAINMENT"
+        },
+        {
+          "name": "生活",
+          "alias": "LIFE"
+        },
+        {
+          "name": "音乐",
+          "alias": "MUSIC"
+        },
+        {
+          "name": "动漫",
+          "alias": "ANIMATION"
+        },
+        {
+          "name": "文化",
+          "alias": "CULTURE"
+        },
+        {
+          "name": "科技",
+          "alias": "TECH"
+        },
+        {
+          "name": "新闻",
+          "alias": "NEWS"
+        },
+        {
+          "name": "体育",
+          "alias": "SPORT"
+        },
+        {
+          "name": "游戏",
+          "alias": "GAME"
+        },
+        {
+          "name": "财经",
+          "alias": "FINANCE"
+        }
+      ]
+    },
+    "im": {
+      "poke": [
+        "hello",
+        "wink",
+        "sincere"
+      ],
+      "chat": [
+        "happy",
+        "sad",
+        "love",
+        "question",
+        "angry",
+        "rolling-eyes",
+        "adore",
+        "sleepy"
+      ],
+      "stickers": [
+        {
+          "key": "question",
+          "text": "疑问",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/question-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/question-v2.gif"
+        },
+        {
+          "key": "hey",
+          "text": "哈喽",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/hey.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/hey.gif"
+        },
+        {
+          "key": "hello",
+          "text": "哈喽",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/hello-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/hello-v2.gif"
+        },
+        {
+          "key": "wink",
+          "text": "想认识你",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/wink-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/wink-v2.gif"
+        },
+        {
+          "key": "sincere",
+          "text": "有事找你",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/sincere.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/sincere.gif"
+        },
+        {
+          "key": "happy",
+          "text": "开心",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/happy-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/happy-v2.gif"
+        },
+        {
+          "key": "sad",
+          "text": "难过",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/sad-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/sad-v2.gif"
+        },
+        {
+          "key": "love",
+          "text": "喜欢",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/love-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/love-v2.gif"
+        },
+        {
+          "key": "angry",
+          "text": "生气",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/angry-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/angry-v2.gif"
+        },
+        {
+          "key": "rolling-eyes",
+          "text": "白眼",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/rolling-eyes-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/rolling-eyes-v2.gif"
+        },
+        {
+          "key": "adore",
+          "text": "星星眼",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/adore-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/adore-v2.gif"
+        },
+        {
+          "key": "sleepy",
+          "text": "好困",
+          "static": "https://dv52n4sbalu69.cloudfront.net/stickers/sleepy-v2.png",
+          "dynamic": "https://dv52n4sbalu69.cloudfront.net/stickers/sleepy-v2.gif"
+        }
+      ],
+      "emojis": [
+        "😄",
+        "😂",
+        "😍",
+        "😘",
+        "😝",
+        "🙃",
+        "😌",
+        "😎",
+        "😏",
+        "😒",
+        "🙄",
+        "🤔",
+        "😳",
+        "😤",
+        "🌚",
+        "🌝",
+        "😱",
+        "😰",
+        "😢",
+        "😇",
+        "💩",
+        "😈",
+        "👻",
+        "🤖",
+        "👍",
+        "👌",
+        "🤝",
+        "🙏",
+        "👏",
+        "👋",
+        "👀",
+        "💃",
+        "🤷",
+        "🐶",
+        "🐱",
+        "🐵",
+        "🙈",
+        "🙉",
+        "🙊",
+        "🦄",
+        "🌈",
+        "⚡",
+        "🔥",
+        "🌊",
+        "🍋",
+        "🍑",
+        "🍓",
+        "🥝",
+        "🍭",
+        "🍻",
+        "⚽",
+        "🏀",
+        "🎾",
+        "🎱",
+        "🎧",
+        "🎬",
+        "🎮",
+        "🎲",
+        "🚗",
+        "🚢",
+        "🔫",
+        "💊",
+        "🎈",
+        "🎁",
+        "🎉"
+      ]
+    },
+    "appAuthTokens": {
+      "refreshInterval": 600
+    },
+    "kingCard": {
+      "exemptedHosts": [
+        "www.jike.app",
+        "jike.app",
+        "downtown.jike.city",
+        "www.ruguoapp.com",
+        "www-beta.ruguoapp.com",
+        "ruguoapp.com",
+        "jike.ruguoapp.com",
+        "www.okjike.com",
+        "www-beta.okjike.com",
+        "okjike.com"
+      ]
+    },
+    "webRule": {
+      "ua": {
+        "^(http|https)://(.*\\.)?weibo\\.(cn|com)": "",
+        "^(http|https)://zhuanlan\\.zhihu\\.com": " Mobile"
+      },
+      "allowScheme": {
+        "^https://h5\\.okjike\\.com": [
+          "^alipay://",
+          "^alipays://",
+          "^alipayqr://",
+          "^jike://",
+          "^https://"
+        ],
+        "^(http|https)://pages\\.tmall\\.com": [
+          "^tbopen://"
+        ],
+        "^(http|https)://(.*\\.)?weibo\\.(cn|com)": [
+          "^weibo://",
+          "^sinaweibo://"
+        ],
+        "^(http|https)://(.*\\.)?zhihu\\.com": [
+          "^zhihu://"
+        ],
+        "^(http|https)://music\\.163\\.com": [
+          "^orpheus://"
+        ],
+        "^(http|https)://(.*\\.)?alipay\\.com": [
+          "^alipay://",
+          "^alipays://",
+          "^alipayqr://"
+        ],
+        "^(http|https)://(.*\\.)?taobao\\.com": [
+          "^tbopen://",
+          "^taobao://"
+        ],
+        "^(http|https)://(.*\\.)?(m\\.)?jd\\.com": [
+          "^openapp.jdmobile://"
+        ],
+        "^(http|https)://(.*\\.)?qq\\.com": [
+          "^mqqopensdkapi://",
+          "mqqapi://"
+        ]
+      }
+    },
+    "mention": {
+      "disabled": false
+    },
+    "bump": {
+      "disabled": true
+    },
+    "splash": {
+      "logoAudio": "http://android-images.okjike.com/jike_slogan.m4a"
+    },
+    "topicSubscriptions": {
+      "defaultStatus": 2
+    },
+    "loginToast": {
+      "LIKE": "登录后为即友点赞",
+      "COMMENT": "登录后发表评论",
+      "REPOST": "登录后转发动态",
+      "POST": "登录后发布动态",
+      "FOLLOW": "登录后关注即友",
+      "CHAT": "登录后与即友聊天",
+      "STORY": "登录后发日记",
+      "COMMENT_STORY": "登录后发表留言",
+      "OTHER": "登录后更多精彩"
+    },
+    "story": {
+      "emojis": [
+        "😃",
+        "😏",
+        "😋",
+        "😉",
+        "😘",
+        "😍",
+        "😇",
+        "😝",
+        "🙃",
+        "🤔",
+        "😳",
+        "😷",
+        "😌",
+        "🙄",
+        "😅",
+        "😢",
+        "😂",
+        "😡",
+        "😱",
+        "😴",
+        "💩",
+        "😈",
+        "👻",
+        "🙌",
+        "👏",
+        "👋",
+        "👍",
+        "✌️",
+        "👌",
+        "💪",
+        "🙏",
+        "🤟",
+        "✏️",
+        "💅",
+        "👀",
+        "💁",
+        "🙅",
+        "🙆",
+        "🙋",
+        "🤦‍♀️",
+        "💄",
+        "🦄",
+        "🍀",
+        "🌸",
+        "🌚",
+        "☀️",
+        "🌤",
+        "⛅️",
+        "☁️",
+        "🌧",
+        "⚡️",
+        "❄️",
+        "☔️",
+        "🎂",
+        "🍻",
+        "☕️",
+        "🍽",
+        "🏀",
+        "⚽️",
+        "🎬",
+        "🎮",
+        "🚗",
+        "🚄",
+        "✈️",
+        "⛴",
+        "🌈",
+        "📸",
+        "💡",
+        "🔫",
+        "🚬",
+        "💊",
+        "🎁",
+        "💌",
+        "📖",
+        "❤️",
+        "💔",
+        "🉑",
+        "㊙️",
+        "🈲",
+        "⚠️",
+        "💯",
+        "✅",
+        "❎",
+        "💬",
+        "🀄️"
+      ]
+    },
+    "readStatus": {
+      "durationThreshold": 1000,
+      "widthPercentage": 0.7,
+      "heightPercentage": 0.4
+    }
+  },
+  "_version": "SroUWSop0UPKRM6O5kivP9KJx.8IwlD5"
+}

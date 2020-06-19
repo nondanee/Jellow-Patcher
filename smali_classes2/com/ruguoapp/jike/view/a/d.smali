@@ -1,0 +1,2283 @@
+.class public Lcom/ruguoapp/jike/view/a/d;
+.super Landroidx/recyclerview/widget/t;
+.source "DefaultItemAnimator.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/ruguoapp/jike/view/a/d$g;,
+        Lcom/ruguoapp/jike/view/a/d$f;
+    }
+.end annotation
+
+
+# static fields
+.field private static s:Landroid/animation/TimeInterpolator;
+
+
+# instance fields
+.field h:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Ljava/util/ArrayList<",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field i:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Ljava/util/ArrayList<",
+            "Lcom/ruguoapp/jike/view/a/d$g;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field j:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Ljava/util/ArrayList<",
+            "Lcom/ruguoapp/jike/view/a/d$f;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field k:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field l:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field m:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field n:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private o:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private p:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private q:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Lcom/ruguoapp/jike/view/a/d$g;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private r:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Lcom/ruguoapp/jike/view/a/d$f;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Landroidx/recyclerview/widget/t;-><init>()V
+
+    .line 2
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    .line 3
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    .line 4
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    .line 5
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->k:Ljava/util/ArrayList;
+
+    .line 6
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->l:Ljava/util/ArrayList;
+
+    .line 7
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->m:Ljava/util/ArrayList;
+
+    .line 8
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->n:Ljava/util/ArrayList;
+
+    .line 9
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    .line 10
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    .line 11
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    .line 12
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    return-void
+.end method
+
+.method static synthetic a(Lcom/ruguoapp/jike/view/a/d;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/ruguoapp/jike/view/a/d;->k()V
+
+    return-void
+.end method
+
+.method private a(Ljava/util/List;Landroidx/recyclerview/widget/RecyclerView$d0;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/ruguoapp/jike/view/a/d$f;",
+            ">;",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ")V"
+        }
+    .end annotation
+
+    .line 42
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_0
+    if-ltz v0, :cond_1
+
+    .line 43
+    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/ruguoapp/jike/view/a/d$f;
+
+    .line 44
+    invoke-direct {p0, v1, p2}, Lcom/ruguoapp/jike/view/a/d;->a(Lcom/ruguoapp/jike/view/a/d$f;Landroidx/recyclerview/widget/RecyclerView$d0;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    iget-object v2, v1, Lcom/ruguoapp/jike/view/a/d$f;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    if-nez v2, :cond_0
+
+    iget-object v2, v1, Lcom/ruguoapp/jike/view/a/d$f;->b:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    if-nez v2, :cond_0
+
+    .line 45
+    invoke-interface {p1, v1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
+
+    :cond_0
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_0
+
+    :cond_1
+    return-void
+.end method
+
+.method private a(Lcom/ruguoapp/jike/view/a/d$f;Landroidx/recyclerview/widget/RecyclerView$d0;)Z
+    .locals 4
+
+    .line 46
+    iget-object v0, p1, Lcom/ruguoapp/jike/view/a/d$f;->b:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    const/4 v1, 0x1
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    if-ne v0, p2, :cond_0
+
+    .line 47
+    iput-object v2, p1, Lcom/ruguoapp/jike/view/a/d$f;->b:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    goto :goto_0
+
+    .line 48
+    :cond_0
+    iget-object v0, p1, Lcom/ruguoapp/jike/view/a/d$f;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    if-eq v0, p2, :cond_1
+
+    return v3
+
+    .line 49
+    :cond_1
+    iput-object v2, p1, Lcom/ruguoapp/jike/view/a/d$f;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    const/4 v3, 0x1
+
+    .line 50
+    :goto_0
+    iget-object p1, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setAlpha(F)V
+
+    .line 51
+    iget-object p1, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationX(F)V
+
+    .line 52
+    iget-object p1, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 53
+    invoke-virtual {p0, p2, v3}, Landroidx/recyclerview/widget/t;->a(Landroidx/recyclerview/widget/RecyclerView$d0;Z)V
+
+    return v1
+.end method
+
+.method private b(Lcom/ruguoapp/jike/view/a/d$f;)V
+    .locals 1
+
+    .line 13
+    iget-object v0, p1, Lcom/ruguoapp/jike/view/a/d$f;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    if-eqz v0, :cond_0
+
+    .line 14
+    invoke-direct {p0, p1, v0}, Lcom/ruguoapp/jike/view/a/d;->a(Lcom/ruguoapp/jike/view/a/d$f;Landroidx/recyclerview/widget/RecyclerView$d0;)Z
+
+    .line 15
+    :cond_0
+    iget-object v0, p1, Lcom/ruguoapp/jike/view/a/d$f;->b:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    if-eqz v0, :cond_1
+
+    .line 16
+    invoke-direct {p0, p1, v0}, Lcom/ruguoapp/jike/view/a/d;->a(Lcom/ruguoapp/jike/view/a/d$f;Landroidx/recyclerview/widget/RecyclerView$d0;)Z
+
+    :cond_1
+    return-void
+.end method
+
+.method private k()V
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/ruguoapp/jike/view/a/d;->g()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 2
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$l;->a()V
+
+    :cond_0
+    return-void
+.end method
+
+.method private u(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+    .locals 4
+
+    .line 1
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 2
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v1
+
+    .line 3
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->m:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 4
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$l;->f()J
+
+    move-result-wide v2
+
+    invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/ruguoapp/jike/view/a/d$a;
+
+    invoke-direct {v3, p0, p1, v1, v0}, Lcom/ruguoapp/jike/view/a/d$a;-><init>(Lcom/ruguoapp/jike/view/a/d;Landroidx/recyclerview/widget/RecyclerView$d0;Landroid/view/ViewPropertyAnimator;Landroid/view/View;)V
+
+    invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object p1
+
+    .line 5
+    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
+
+    return-void
+.end method
+
+.method private v(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+    .locals 2
+
+    .line 1
+    sget-object v0, Lcom/ruguoapp/jike/view/a/d;->s:Landroid/animation/TimeInterpolator;
+
+    if-nez v0, :cond_0
+
+    .line 2
+    new-instance v0, Landroid/animation/ValueAnimator;
+
+    invoke-direct {v0}, Landroid/animation/ValueAnimator;-><init>()V
+
+    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->getInterpolator()Landroid/animation/TimeInterpolator;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/ruguoapp/jike/view/a/d;->s:Landroid/animation/TimeInterpolator;
+
+    .line 3
+    :cond_0
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/ruguoapp/jike/view/a/d;->s:Landroid/animation/TimeInterpolator;
+
+    invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
+
+    .line 4
+    invoke-virtual {p0, p1}, Lcom/ruguoapp/jike/view/a/d;->c(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected a(ZZZ)J
+    .locals 0
+
+    const p0, 0x0
+
+    throw p0
+.end method
+
+.method a(Lcom/ruguoapp/jike/view/a/d$f;)V
+    .locals 6
+
+    .line 28
+    iget-object v0, p1, Lcom/ruguoapp/jike/view/a/d$f;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    move-object v0, v1
+
+    goto :goto_0
+
+    .line 29
+    :cond_0
+    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 30
+    :goto_0
+    iget-object v2, p1, Lcom/ruguoapp/jike/view/a/d$f;->b:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    if-eqz v2, :cond_1
+
+    .line 31
+    iget-object v1, v2, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    :cond_1
+    const/4 v2, 0x0
+
+    if-eqz v0, :cond_2
+
+    .line 32
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v3
+
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$l;->d()J
+
+    move-result-wide v4
+
+    invoke-virtual {v3, v4, v5}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v3
+
+    .line 33
+    iget-object v4, p0, Lcom/ruguoapp/jike/view/a/d;->n:Ljava/util/ArrayList;
+
+    iget-object v5, p1, Lcom/ruguoapp/jike/view/a/d$f;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    invoke-virtual {v4, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 34
+    iget v4, p1, Lcom/ruguoapp/jike/view/a/d$f;->e:I
+
+    iget v5, p1, Lcom/ruguoapp/jike/view/a/d$f;->c:I
+
+    sub-int/2addr v4, v5
+
+    int-to-float v4, v4
+
+    invoke-virtual {v3, v4}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
+
+    .line 35
+    iget v4, p1, Lcom/ruguoapp/jike/view/a/d$f;->f:I
+
+    iget v5, p1, Lcom/ruguoapp/jike/view/a/d$f;->d:I
+
+    sub-int/2addr v4, v5
+
+    int-to-float v4, v4
+
+    invoke-virtual {v3, v4}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
+
+    .line 36
+    invoke-virtual {v3, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v4
+
+    new-instance v5, Lcom/ruguoapp/jike/view/a/d$d;
+
+    invoke-direct {v5, p0, p1, v3, v0}, Lcom/ruguoapp/jike/view/a/d$d;-><init>(Lcom/ruguoapp/jike/view/a/d;Lcom/ruguoapp/jike/view/a/d$f;Landroid/view/ViewPropertyAnimator;Landroid/view/View;)V
+
+    invoke-virtual {v4, v5}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    .line 37
+    invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->start()V
+
+    :cond_2
+    if-eqz v1, :cond_3
+
+    .line 38
+    invoke-virtual {v1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v0
+
+    .line 39
+    iget-object v3, p0, Lcom/ruguoapp/jike/view/a/d;->n:Ljava/util/ArrayList;
+
+    iget-object v4, p1, Lcom/ruguoapp/jike/view/a/d$f;->b:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 40
+    invoke-virtual {v0, v2}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v2}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$l;->d()J
+
+    move-result-wide v3
+
+    invoke-virtual {v2, v3, v4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    const/high16 v3, 0x3f800000    # 1.0f
+
+    invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/ruguoapp/jike/view/a/d$e;
+
+    invoke-direct {v3, p0, p1, v0, v1}, Lcom/ruguoapp/jike/view/a/d$e;-><init>(Lcom/ruguoapp/jike/view/a/d;Lcom/ruguoapp/jike/view/a/d$f;Landroid/view/ViewPropertyAnimator;Landroid/view/View;)V
+
+    invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object p1
+
+    .line 41
+    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
+
+    :cond_3
+    return-void
+.end method
+
+.method public synthetic a(Ljava/util/ArrayList;)V
+    .locals 8
+
+    .line 2
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    .line 3
+    check-cast v1, Lcom/ruguoapp/jike/view/a/d$g;
+
+    .line 4
+    iget-object v3, v1, Lcom/ruguoapp/jike/view/a/d$g;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    iget v4, v1, Lcom/ruguoapp/jike/view/a/d$g;->b:I
+
+    iget v5, v1, Lcom/ruguoapp/jike/view/a/d$g;->c:I
+
+    iget v6, v1, Lcom/ruguoapp/jike/view/a/d$g;->d:I
+
+    iget v7, v1, Lcom/ruguoapp/jike/view/a/d$g;->e:I
+
+    move-object v2, p0
+
+    invoke-virtual/range {v2 .. v7}, Lcom/ruguoapp/jike/view/a/d;->b(Landroidx/recyclerview/widget/RecyclerView$d0;IIII)V
+
+    goto :goto_0
+
+    .line 5
+    :cond_0
+    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
+
+    .line 6
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method a(Ljava/util/List;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 54
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_0
+    if-ltz v0, :cond_0
+
+    .line 55
+    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
+
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public a(Landroidx/recyclerview/widget/RecyclerView$d0;IIII)Z
+    .locals 8
+
+    .line 7
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 8
+    invoke-virtual {v0}, Landroid/view/View;->getTranslationX()F
+
+    move-result v1
+
+    float-to-int v1, v1
+
+    add-int v4, p2, v1
+
+    .line 9
+    iget-object p2, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {p2}, Landroid/view/View;->getTranslationY()F
+
+    move-result p2
+
+    float-to-int p2, p2
+
+    add-int v5, p3, p2
+
+    .line 10
+    invoke-direct {p0, p1}, Lcom/ruguoapp/jike/view/a/d;->v(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    sub-int p2, p4, v4
+
+    sub-int p3, p5, v5
+
+    if-nez p2, :cond_0
+
+    if-nez p3, :cond_0
+
+    .line 11
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/t;->j(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    const/4 p1, 0x0
+
+    return p1
+
+    :cond_0
+    if-eqz p2, :cond_1
+
+    neg-int p2, p2
+
+    int-to-float p2, p2
+
+    .line 12
+    invoke-virtual {v0, p2}, Landroid/view/View;->setTranslationX(F)V
+
+    :cond_1
+    if-eqz p3, :cond_2
+
+    neg-int p2, p3
+
+    int-to-float p2, p2
+
+    .line 13
+    invoke-virtual {v0, p2}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 14
+    :cond_2
+    iget-object p2, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    new-instance p3, Lcom/ruguoapp/jike/view/a/d$g;
+
+    move-object v2, p3
+
+    move-object v3, p1
+
+    move v6, p4
+
+    move v7, p5
+
+    invoke-direct/range {v2 .. v7}, Lcom/ruguoapp/jike/view/a/d$g;-><init>(Landroidx/recyclerview/widget/RecyclerView$d0;IIII)V
+
+    invoke-virtual {p2, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    const/4 p1, 0x1
+
+    return p1
+.end method
+
+.method public a(Landroidx/recyclerview/widget/RecyclerView$d0;Landroidx/recyclerview/widget/RecyclerView$d0;IIII)Z
+    .locals 9
+
+    if-ne p1, p2, :cond_0
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move v2, p3
+
+    move v3, p4
+
+    move v4, p5
+
+    move v5, p6
+
+    .line 15
+    invoke-virtual/range {v0 .. v5}, Lcom/ruguoapp/jike/view/a/d;->a(Landroidx/recyclerview/widget/RecyclerView$d0;IIII)Z
+
+    move-result p1
+
+    return p1
+
+    .line 16
+    :cond_0
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getTranslationX()F
+
+    move-result v0
+
+    .line 17
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v1}, Landroid/view/View;->getTranslationY()F
+
+    move-result v1
+
+    .line 18
+    iget-object v2, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v2}, Landroid/view/View;->getAlpha()F
+
+    move-result v2
+
+    .line 19
+    invoke-direct {p0, p1}, Lcom/ruguoapp/jike/view/a/d;->v(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    sub-int v3, p5, p3
+
+    int-to-float v3, v3
+
+    sub-float/2addr v3, v0
+
+    float-to-int v3, v3
+
+    sub-int v4, p6, p4
+
+    int-to-float v4, v4
+
+    sub-float/2addr v4, v1
+
+    float-to-int v4, v4
+
+    .line 20
+    iget-object v5, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v5, v0}, Landroid/view/View;->setTranslationX(F)V
+
+    .line 21
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 22
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v0, v2}, Landroid/view/View;->setAlpha(F)V
+
+    if-eqz p2, :cond_1
+
+    .line 23
+    invoke-direct {p0, p2}, Lcom/ruguoapp/jike/view/a/d;->v(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 24
+    iget-object v0, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    neg-int v1, v3
+
+    int-to-float v1, v1
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationX(F)V
+
+    .line 25
+    iget-object v0, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    neg-int v1, v4
+
+    int-to-float v1, v1
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 26
+    iget-object v0, p2, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
+
+    .line 27
+    :cond_1
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    new-instance v8, Lcom/ruguoapp/jike/view/a/d$f;
+
+    move-object v1, v8
+
+    move-object v2, p1
+
+    move-object v3, p2
+
+    move v4, p3
+
+    move v5, p4
+
+    move v6, p5
+
+    move v7, p6
+
+    invoke-direct/range {v1 .. v7}, Lcom/ruguoapp/jike/view/a/d$f;-><init>(Landroidx/recyclerview/widget/RecyclerView$d0;Landroidx/recyclerview/widget/RecyclerView$d0;IIII)V
+
+    invoke-virtual {v0, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    const/4 p1, 0x1
+
+    return p1
+.end method
+
+.method public a(Landroidx/recyclerview/widget/RecyclerView$d0;Ljava/util/List;)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/recyclerview/widget/RecyclerView$d0;",
+            "Ljava/util/List<",
+            "Ljava/lang/Object;",
+            ">;)Z"
+        }
+    .end annotation
+
+    .line 56
+    invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$l;->a(Landroidx/recyclerview/widget/RecyclerView$d0;Ljava/util/List;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 p1, 0x1
+
+    :goto_1
+    return p1
+.end method
+
+.method public b()V
+    .locals 7
+
+    .line 17
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_0
+    const/4 v1, 0x0
+
+    if-ltz v0, :cond_0
+
+    .line 18
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/ruguoapp/jike/view/a/d$g;
+
+    .line 19
+    iget-object v3, v2, Lcom/ruguoapp/jike/view/a/d$g;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 20
+    invoke-virtual {v3, v1}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 21
+    invoke-virtual {v3, v1}, Landroid/view/View;->setTranslationX(F)V
+
+    .line 22
+    iget-object v1, v2, Lcom/ruguoapp/jike/view/a/d$g;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/t;->j(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 23
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_0
+
+    .line 24
+    :cond_0
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_1
+    if-ltz v0, :cond_1
+
+    .line 25
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    .line 26
+    invoke-virtual {p0, v2}, Landroidx/recyclerview/widget/t;->l(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 27
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_1
+
+    .line 28
+    :cond_1
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_2
+    const/high16 v2, 0x3f800000    # 1.0f
+
+    if-ltz v0, :cond_2
+
+    .line 29
+    iget-object v3, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-virtual {v3, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    .line 30
+    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {v4, v2}, Landroid/view/View;->setAlpha(F)V
+
+    .line 31
+    invoke-virtual {p0, v3}, Landroidx/recyclerview/widget/t;->h(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 32
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_2
+
+    .line 33
+    :cond_2
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_3
+    if-ltz v0, :cond_3
+
+    .line 34
+    iget-object v3, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    invoke-virtual {v3, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/ruguoapp/jike/view/a/d$f;
+
+    invoke-direct {p0, v3}, Lcom/ruguoapp/jike/view/a/d;->b(Lcom/ruguoapp/jike/view/a/d$f;)V
+
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_3
+
+    .line 35
+    :cond_3
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+
+    .line 36
+    invoke-virtual {p0}, Lcom/ruguoapp/jike/view/a/d;->g()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_d
+
+    .line 37
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_4
+    if-ltz v0, :cond_6
+
+    .line 38
+    iget-object v3, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v3, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/util/ArrayList;
+
+    .line 39
+    invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
+
+    move-result v4
+
+    add-int/lit8 v4, v4, -0x1
+
+    :goto_5
+    if-ltz v4, :cond_5
+
+    .line 40
+    invoke-virtual {v3, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lcom/ruguoapp/jike/view/a/d$g;
+
+    .line 41
+    iget-object v6, v5, Lcom/ruguoapp/jike/view/a/d$g;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    .line 42
+    iget-object v6, v6, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 43
+    invoke-virtual {v6, v1}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 44
+    invoke-virtual {v6, v1}, Landroid/view/View;->setTranslationX(F)V
+
+    .line 45
+    iget-object v5, v5, Lcom/ruguoapp/jike/view/a/d$g;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    invoke-virtual {p0, v5}, Landroidx/recyclerview/widget/t;->j(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 46
+    invoke-virtual {v3, v4}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    .line 47
+    invoke-virtual {v3}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_4
+
+    .line 48
+    iget-object v5, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v5, v3}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    :cond_4
+    add-int/lit8 v4, v4, -0x1
+
+    goto :goto_5
+
+    :cond_5
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_4
+
+    .line 49
+    :cond_6
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_6
+    if-ltz v0, :cond_9
+
+    .line 50
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/ArrayList;
+
+    .line 51
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v3
+
+    add-int/lit8 v3, v3, -0x1
+
+    :goto_7
+    if-ltz v3, :cond_8
+
+    .line 52
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    .line 53
+    iget-object v5, v4, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 54
+    invoke-virtual {v5, v2}, Landroid/view/View;->setAlpha(F)V
+
+    .line 55
+    invoke-virtual {p0, v4}, Landroidx/recyclerview/widget/t;->h(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 56
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    .line 57
+    invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_7
+
+    .line 58
+    iget-object v4, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v4, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    :cond_7
+    add-int/lit8 v3, v3, -0x1
+
+    goto :goto_7
+
+    :cond_8
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_6
+
+    .line 59
+    :cond_9
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_8
+    if-ltz v0, :cond_c
+
+    .line 60
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/ArrayList;
+
+    .line 61
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v2
+
+    add-int/lit8 v2, v2, -0x1
+
+    :goto_9
+    if-ltz v2, :cond_b
+
+    .line 62
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/ruguoapp/jike/view/a/d$f;
+
+    invoke-direct {p0, v3}, Lcom/ruguoapp/jike/view/a/d;->b(Lcom/ruguoapp/jike/view/a/d$f;)V
+
+    .line 63
+    invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_a
+
+    .line 64
+    iget-object v3, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v3, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    :cond_a
+    add-int/lit8 v2, v2, -0x1
+
+    goto :goto_9
+
+    :cond_b
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_8
+
+    .line 65
+    :cond_c
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->m:Ljava/util/ArrayList;
+
+    invoke-virtual {p0, v0}, Lcom/ruguoapp/jike/view/a/d;->a(Ljava/util/List;)V
+
+    .line 66
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->l:Ljava/util/ArrayList;
+
+    invoke-virtual {p0, v0}, Lcom/ruguoapp/jike/view/a/d;->a(Ljava/util/List;)V
+
+    .line 67
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->k:Ljava/util/ArrayList;
+
+    invoke-virtual {p0, v0}, Lcom/ruguoapp/jike/view/a/d;->a(Ljava/util/List;)V
+
+    .line 68
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->n:Ljava/util/ArrayList;
+
+    invoke-virtual {p0, v0}, Lcom/ruguoapp/jike/view/a/d;->a(Ljava/util/List;)V
+
+    .line 69
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$l;->a()V
+
+    :cond_d
+    return-void
+.end method
+
+.method b(Landroidx/recyclerview/widget/RecyclerView$d0;IIII)V
+    .locals 7
+
+    .line 6
+    iget-object v4, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    sub-int v3, p4, p2
+
+    sub-int v5, p5, p3
+
+    const/4 p2, 0x0
+
+    if-eqz v3, :cond_0
+
+    .line 7
+    invoke-virtual {v4}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object p3
+
+    invoke-virtual {p3, p2}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
+
+    :cond_0
+    if-eqz v5, :cond_1
+
+    .line 8
+    invoke-virtual {v4}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object p3
+
+    invoke-virtual {p3, p2}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
+
+    .line 9
+    :cond_1
+    invoke-virtual {v4}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v6
+
+    .line 10
+    iget-object p2, p0, Lcom/ruguoapp/jike/view/a/d;->l:Ljava/util/ArrayList;
+
+    invoke-virtual {p2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 11
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$l;->e()J
+
+    move-result-wide p2
+
+    invoke-virtual {v6, p2, p3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object p2
+
+    new-instance p3, Lcom/ruguoapp/jike/view/a/d$c;
+
+    move-object v0, p3
+
+    move-object v1, p0
+
+    move-object v2, p1
+
+    invoke-direct/range {v0 .. v6}, Lcom/ruguoapp/jike/view/a/d$c;-><init>(Lcom/ruguoapp/jike/view/a/d;Landroidx/recyclerview/widget/RecyclerView$d0;ILandroid/view/View;ILandroid/view/ViewPropertyAnimator;)V
+
+    invoke-virtual {p2, p3}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object p1
+
+    .line 12
+    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
+
+    return-void
+.end method
+
+.method public synthetic b(Ljava/util/ArrayList;)V
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    .line 2
+    check-cast v1, Lcom/ruguoapp/jike/view/a/d$f;
+
+    .line 3
+    invoke-virtual {p0, v1}, Lcom/ruguoapp/jike/view/a/d;->a(Lcom/ruguoapp/jike/view/a/d$f;)V
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
+
+    .line 5
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public c(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+    .locals 7
+
+    .line 6
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 7
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
+
+    .line 8
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    add-int/lit8 v1, v1, -0x1
+
+    :goto_0
+    const/4 v2, 0x0
+
+    if-ltz v1, :cond_1
+
+    .line 9
+    iget-object v3, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v3, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/ruguoapp/jike/view/a/d$g;
+
+    .line 10
+    iget-object v3, v3, Lcom/ruguoapp/jike/view/a/d$g;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    if-ne v3, p1, :cond_0
+
+    .line 11
+    invoke-virtual {v0, v2}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 12
+    invoke-virtual {v0, v2}, Landroid/view/View;->setTranslationX(F)V
+
+    .line 13
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/t;->j(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 14
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    :cond_0
+    add-int/lit8 v1, v1, -0x1
+
+    goto :goto_0
+
+    .line 15
+    :cond_1
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    invoke-direct {p0, v1, p1}, Lcom/ruguoapp/jike/view/a/d;->a(Ljava/util/List;Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 16
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    const/high16 v3, 0x3f800000    # 1.0f
+
+    if-eqz v1, :cond_2
+
+    .line 17
+    invoke-virtual {v0, v3}, Landroid/view/View;->setAlpha(F)V
+
+    .line 18
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/t;->l(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 19
+    :cond_2
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_3
+
+    .line 20
+    invoke-virtual {v0, v3}, Landroid/view/View;->setAlpha(F)V
+
+    .line 21
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/t;->h(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 22
+    :cond_3
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    add-int/lit8 v1, v1, -0x1
+
+    :goto_1
+    if-ltz v1, :cond_5
+
+    .line 23
+    iget-object v4, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v4, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/util/ArrayList;
+
+    .line 24
+    invoke-direct {p0, v4, p1}, Lcom/ruguoapp/jike/view/a/d;->a(Ljava/util/List;Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 25
+    invoke-virtual {v4}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_4
+
+    .line 26
+    iget-object v4, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v4, v1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    :cond_4
+    add-int/lit8 v1, v1, -0x1
+
+    goto :goto_1
+
+    .line 27
+    :cond_5
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    add-int/lit8 v1, v1, -0x1
+
+    :goto_2
+    if-ltz v1, :cond_8
+
+    .line 28
+    iget-object v4, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v4, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/util/ArrayList;
+
+    .line 29
+    invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
+
+    move-result v5
+
+    add-int/lit8 v5, v5, -0x1
+
+    :goto_3
+    if-ltz v5, :cond_7
+
+    .line 30
+    invoke-virtual {v4, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v6
+
+    check-cast v6, Lcom/ruguoapp/jike/view/a/d$g;
+
+    .line 31
+    iget-object v6, v6, Lcom/ruguoapp/jike/view/a/d$g;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    if-ne v6, p1, :cond_6
+
+    .line 32
+    invoke-virtual {v0, v2}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 33
+    invoke-virtual {v0, v2}, Landroid/view/View;->setTranslationX(F)V
+
+    .line 34
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/t;->j(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 35
+    invoke-virtual {v4, v5}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    .line 36
+    invoke-virtual {v4}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_7
+
+    .line 37
+    iget-object v4, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v4, v1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    goto :goto_4
+
+    :cond_6
+    add-int/lit8 v5, v5, -0x1
+
+    goto :goto_3
+
+    :cond_7
+    :goto_4
+    add-int/lit8 v1, v1, -0x1
+
+    goto :goto_2
+
+    .line 38
+    :cond_8
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    add-int/lit8 v1, v1, -0x1
+
+    :goto_5
+    if-ltz v1, :cond_a
+
+    .line 39
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/util/ArrayList;
+
+    .line 40
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_9
+
+    .line 41
+    invoke-virtual {v0, v3}, Landroid/view/View;->setAlpha(F)V
+
+    .line 42
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/t;->h(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 43
+    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_9
+
+    .line 44
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+
+    :cond_9
+    add-int/lit8 v1, v1, -0x1
+
+    goto :goto_5
+
+    .line 45
+    :cond_a
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->m:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    .line 46
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->k:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    .line 47
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->n:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    .line 48
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->l:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    .line 49
+    invoke-direct {p0}, Lcom/ruguoapp/jike/view/a/d;->k()V
+
+    return-void
+.end method
+
+.method public synthetic c(Ljava/util/ArrayList;)V
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    .line 2
+    check-cast v1, Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    .line 3
+    invoke-virtual {p0, v1}, Lcom/ruguoapp/jike/view/a/d;->t(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
+
+    .line 5
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public f(Landroidx/recyclerview/widget/RecyclerView$d0;)Z
+    .locals 2
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/ruguoapp/jike/view/a/d;->v(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 2
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
+
+    .line 3
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    const/4 p1, 0x1
+
+    return p1
+.end method
+
+.method public g()Z
+    .locals 1
+
+    .line 3
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->l:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->m:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->k:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->n:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 v0, 0x1
+
+    :goto_1
+    return v0
+.end method
+
+.method public g(Landroidx/recyclerview/widget/RecyclerView$d0;)Z
+    .locals 1
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/ruguoapp/jike/view/a/d;->v(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    .line 2
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    const/4 p1, 0x1
+
+    return p1
+.end method
+
+.method public i()V
+    .locals 9
+
+    .line 1
+    iget-object v0, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    xor-int/lit8 v0, v0, 0x1
+
+    .line 2
+    iget-object v1, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v1
+
+    xor-int/lit8 v1, v1, 0x1
+
+    .line 3
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v2
+
+    xor-int/lit8 v2, v2, 0x1
+
+    .line 4
+    iget-object v3, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-virtual {v3}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v3
+
+    xor-int/lit8 v3, v3, 0x1
+
+    if-nez v0, :cond_0
+
+    if-nez v1, :cond_0
+
+    if-nez v3, :cond_0
+
+    if-eqz v2, :cond_7
+
+    .line 5
+    :cond_0
+    iget-object v4, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v4}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v4
+
+    :goto_0
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_1
+
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    .line 6
+    invoke-direct {p0, v5}, Lcom/ruguoapp/jike/view/a/d;->u(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+
+    goto :goto_0
+
+    .line 7
+    :cond_1
+    iget-object v4, p0, Lcom/ruguoapp/jike/view/a/d;->o:Ljava/util/ArrayList;
+
+    invoke-virtual {v4}, Ljava/util/ArrayList;->clear()V
+
+    const/4 v4, 0x0
+
+    if-eqz v1, :cond_3
+
+    .line 8
+    new-instance v5, Ljava/util/ArrayList;
+
+    iget-object v6, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-direct {v5, v6}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    .line 9
+    iget-object v6, p0, Lcom/ruguoapp/jike/view/a/d;->i:Ljava/util/ArrayList;
+
+    invoke-virtual {v6, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 10
+    iget-object v6, p0, Lcom/ruguoapp/jike/view/a/d;->q:Ljava/util/ArrayList;
+
+    invoke-virtual {v6}, Ljava/util/ArrayList;->clear()V
+
+    .line 11
+    new-instance v6, Lcom/ruguoapp/jike/view/a/a;
+
+    invoke-direct {v6, p0, v5}, Lcom/ruguoapp/jike/view/a/a;-><init>(Lcom/ruguoapp/jike/view/a/d;Ljava/util/ArrayList;)V
+
+    if-eqz v0, :cond_2
+
+    .line 12
+    invoke-virtual {v5, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lcom/ruguoapp/jike/view/a/d$g;
+
+    iget-object v5, v5, Lcom/ruguoapp/jike/view/a/d$g;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    iget-object v5, v5, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 13
+    invoke-virtual {p0}, Lcom/ruguoapp/jike/view/a/d;->j()J
+
+    move-result-wide v7
+
+    invoke-static {v5, v6, v7, v8}, Landroidx/core/g/x;->a(Landroid/view/View;Ljava/lang/Runnable;J)V
+
+    goto :goto_1
+
+    .line 14
+    :cond_2
+    invoke-interface {v6}, Ljava/lang/Runnable;->run()V
+
+    :cond_3
+    :goto_1
+    if-eqz v2, :cond_5
+
+    .line 15
+    new-instance v5, Ljava/util/ArrayList;
+
+    iget-object v6, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    invoke-direct {v5, v6}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    .line 16
+    iget-object v6, p0, Lcom/ruguoapp/jike/view/a/d;->j:Ljava/util/ArrayList;
+
+    invoke-virtual {v6, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 17
+    iget-object v6, p0, Lcom/ruguoapp/jike/view/a/d;->r:Ljava/util/ArrayList;
+
+    invoke-virtual {v6}, Ljava/util/ArrayList;->clear()V
+
+    .line 18
+    new-instance v6, Lcom/ruguoapp/jike/view/a/c;
+
+    invoke-direct {v6, p0, v5}, Lcom/ruguoapp/jike/view/a/c;-><init>(Lcom/ruguoapp/jike/view/a/d;Ljava/util/ArrayList;)V
+
+    if-eqz v0, :cond_4
+
+    .line 19
+    invoke-virtual {v5, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lcom/ruguoapp/jike/view/a/d$f;
+
+    iget-object v5, v5, Lcom/ruguoapp/jike/view/a/d$f;->a:Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    .line 20
+    iget-object v5, v5, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    invoke-virtual {p0}, Lcom/ruguoapp/jike/view/a/d;->j()J
+
+    move-result-wide v7
+
+    invoke-static {v5, v6, v7, v8}, Landroidx/core/g/x;->a(Landroid/view/View;Ljava/lang/Runnable;J)V
+
+    goto :goto_2
+
+    .line 21
+    :cond_4
+    invoke-interface {v6}, Ljava/lang/Runnable;->run()V
+
+    :cond_5
+    :goto_2
+    if-eqz v3, :cond_7
+
+    .line 22
+    new-instance v3, Ljava/util/ArrayList;
+
+    iget-object v5, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-direct {v3, v5}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    .line 23
+    iget-object v5, p0, Lcom/ruguoapp/jike/view/a/d;->h:Ljava/util/ArrayList;
+
+    invoke-virtual {v5, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 24
+    iget-object v5, p0, Lcom/ruguoapp/jike/view/a/d;->p:Ljava/util/ArrayList;
+
+    invoke-virtual {v5}, Ljava/util/ArrayList;->clear()V
+
+    .line 25
+    new-instance v5, Lcom/ruguoapp/jike/view/a/b;
+
+    invoke-direct {v5, p0, v3}, Lcom/ruguoapp/jike/view/a/b;-><init>(Lcom/ruguoapp/jike/view/a/d;Ljava/util/ArrayList;)V
+
+    if-nez v0, :cond_6
+
+    if-nez v1, :cond_6
+
+    if-nez v2, :cond_6
+
+    .line 26
+    invoke-interface {v5}, Ljava/lang/Runnable;->run()V
+
+    goto :goto_3
+
+    .line 27
+    :cond_6
+    invoke-virtual {v3, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/recyclerview/widget/RecyclerView$d0;
+
+    iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 28
+    invoke-virtual {p0, v0, v1, v2}, Lcom/ruguoapp/jike/view/a/d;->a(ZZZ)J
+
+    move-result-wide v0
+
+    invoke-static {v3, v5, v0, v1}, Landroidx/core/g/x;->a(Landroid/view/View;Ljava/lang/Runnable;J)V
+
+    :cond_7
+    :goto_3
+    return-void
+.end method
+
+.method protected j()J
+    .locals 0
+
+    const p0, 0x0
+
+    throw p0
+.end method
+
+.method t(Landroidx/recyclerview/widget/RecyclerView$d0;)V
+    .locals 5
+
+    .line 1
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$d0;->a:Landroid/view/View;
+
+    .line 2
+    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v1
+
+    .line 3
+    iget-object v2, p0, Lcom/ruguoapp/jike/view/a/d;->k:Ljava/util/ArrayList;
+
+    invoke-virtual {v2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    const/high16 v2, 0x3f800000    # 1.0f
+
+    .line 4
+    invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$l;->c()J
+
+    move-result-wide v3
+
+    invoke-virtual {v2, v3, v4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/ruguoapp/jike/view/a/d$b;
+
+    invoke-direct {v3, p0, p1, v0, v1}, Lcom/ruguoapp/jike/view/a/d$b;-><init>(Lcom/ruguoapp/jike/view/a/d;Landroidx/recyclerview/widget/RecyclerView$d0;Landroid/view/View;Landroid/view/ViewPropertyAnimator;)V
+
+    invoke-virtual {v2, v3}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+
+    move-result-object p1
+
+    .line 5
+    invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
+
+    return-void
+.end method

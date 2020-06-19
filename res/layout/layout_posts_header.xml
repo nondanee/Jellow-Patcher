@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ruguoapp.jike.view.widget.GradualLinearLayout android:id="@id/layDraft" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jike_list_common_margin" android:layout_marginBottom="@dimen/jike_list_common_margin" android:layout_below="@id/layStory" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:mask_radius="10.0dip">
+        <RelativeLayout android:id="@id/gradual_mask" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip">
+            <ImageView android:id="@id/iv_delete" android:padding="8.0dip" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_draft_delete" android:tint="@color/jike_light_gray_message_icon" android:layout_centerVertical="true" android:layout_marginStart="2.0dip" android:layout_marginEnd="7.0dip" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/ivRefreshOrEdit" android:padding="8.0dip" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_draft_resend" android:tint="@color/jike_light_gray_message_icon" android:layout_centerVertical="true" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" android:layout_toStartOf="@id/iv_delete" />
+            <TextView android:textSize="@dimen/text_14" android:textColor="@color/jike_text_medium_gray" android:ellipsize="end" android:id="@id/tvInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/jike_list_common_margin" android:layout_toStartOf="@id/ivRefreshOrEdit" />
+        </RelativeLayout>
+    </com.ruguoapp.jike.view.widget.GradualLinearLayout>
+    <com.ruguoapp.jike.view.widget.HorizontalOverScrollLayout android:id="@id/layStory" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>
