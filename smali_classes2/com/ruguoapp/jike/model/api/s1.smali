@@ -588,7 +588,7 @@
     .line 5
     invoke-interface {v1, v0, p1}, Lcom/ruguoapp/jike/core/h/h;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/ruguoapp/jike/core/h/h;
 
-    const-string p0, "/search/topics/posts"
+    const-string p0, "/users/topics/search"
 
     .line 6
     invoke-interface {v1, p0}, Lcom/ruguoapp/jike/core/h/h;->a(Ljava/lang/String;)Lh/b/q;
