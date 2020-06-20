@@ -38,12 +38,12 @@
     .line 1
     invoke-static {}, Lcom/ruguoapp/jike/core/util/k;->c()Ljava/lang/String;
 
-    const-string v0, "https://api.jellow.club"
+    const-string v0, "https://api.ruguoapp.com"
 
     .line 2
     invoke-static {v0}, Lcom/ruguoapp/jike/network/e;->c(Ljava/lang/String;)V
 
-    const-string v0, "https://jike-io.jellow.club"
+    const-string v0, "https://jike-io.ruguoapp.com"
 
     .line 3
     invoke-static {v0}, Lcom/ruguoapp/jike/network/e;->a(Ljava/lang/String;)Ljava/lang/String;
