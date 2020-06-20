@@ -51,7 +51,7 @@
 
 # virtual methods
 .method public final a(Lkotlin/q;)V
-    .locals 4
+    .locals 8
 
     .line 1
     iget-object p1, p0, Lcom/ruguoapp/jike/business/login/newui/b$b;->a:Landroid/view/View;
@@ -118,56 +118,33 @@
     move-result-object v0
 
     .line 4
-    invoke-static {p1, v0}, Lcom/ruguoapp/jike/model/api/b1;->a(Ljava/lang/String;Ljava/lang/String;)Lh/b/q;
 
-    move-result-object v1
+    new-instance v2, Landroid/content/Intent;
 
-    const-string v2, "RxAccount.isAllowLoginJellow(code, phone)"
+    iget-object v3, p0, Lcom/ruguoapp/jike/business/login/newui/b$b;->b:Lcom/ruguoapp/jike/business/login/newui/b;
 
-    invoke-static {v1, v2}, Lkotlin/x/d/k;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-virtual {v3}, Lcom/ruguoapp/jike/ui/fragment/f;->b()Lcom/ruguoapp/jike/ui/activity/RgGenericActivity;
+
+    move-result-object v3
+
+    const-class v4, Lcom/ruguoapp/jike/business/login/newui/LoginWithCodeActivity;
+
+    invoke-direct {v2, v3, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 5
-    iget-object v2, p0, Lcom/ruguoapp/jike/business/login/newui/b$b;->b:Lcom/ruguoapp/jike/business/login/newui/b;
 
-    invoke-virtual {v2}, Lcom/ruguoapp/jike/core/a;->c()Lcom/ruguoapp/jike/core/a;
+    const-string v5, "phone"
 
-    const-string v3, "fragment()"
-
-    invoke-static {v2, v3}, Lkotlin/x/d/k;->a(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-static {v1, v2}, Lcom/ruguoapp/jike/f/f0;->a(Lh/b/q;Landroidx/lifecycle/h;)Lcom/uber/autodispose/x;
-
-    move-result-object v1
+    invoke-virtual {v2, v5, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 6
-    new-instance v2, Lcom/ruguoapp/jike/business/login/newui/b$b$a;
 
-    invoke-direct {v2, p0, v0, p1}, Lcom/ruguoapp/jike/business/login/newui/b$b$a;-><init>(Lcom/ruguoapp/jike/business/login/newui/b$b;Ljava/lang/String;Ljava/lang/String;)V
+    const-string v6, "countryCode"
+
+    invoke-virtual {v2, v6, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 7
-    new-instance p1, Lcom/ruguoapp/jike/business/login/newui/b$b$b;
-
-    invoke-direct {p1, p0}, Lcom/ruguoapp/jike/business/login/newui/b$b$b;-><init>(Lcom/ruguoapp/jike/business/login/newui/b$b;)V
-
-    .line 8
-    invoke-interface {v1, v2, p1}, Lcom/uber/autodispose/x;->a(Lh/b/h0/f;Lh/b/h0/f;)Lh/b/g0/c;
-
-    .line 9
-    sget-object p1, Lcom/ruguoapp/jike/a/r/b;->i:Lcom/ruguoapp/jike/a/r/b$a;
-
-    iget-object v0, p0, Lcom/ruguoapp/jike/business/login/newui/b$b;->b:Lcom/ruguoapp/jike/business/login/newui/b;
-
-    invoke-virtual {p1, v0}, Lcom/ruguoapp/jike/a/r/b$a;->a(Lcom/ruguoapp/jike/a/r/h;)Lcom/ruguoapp/jike/a/r/b;
-
-    move-result-object p1
-
-    const-string v0, "account_send_dynamic_code_click"
-
-    .line 10
-    invoke-virtual {p1, v0}, Lcom/ruguoapp/jike/a/r/b;->a(Ljava/lang/String;)Lcom/ruguoapp/jike/a/r/b;
-
-    .line 11
-    invoke-virtual {p1}, Lcom/ruguoapp/jike/a/r/b;->a()V
+    invoke-static {v3, v2}, Lcom/ruguoapp/jike/global/j;->a(Landroid/content/Context;Landroid/content/Intent;)V
 
     return-void
 .end method
