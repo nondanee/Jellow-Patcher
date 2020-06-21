@@ -7,14 +7,14 @@
 .method public constructor <init>()V
     .locals 2
 
-    const-string v0, "jike:"
+    const-string v0, "jellow:"
 
     .line 1
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    const-string v1, "Uri.parse(\"jike:\")"
+    const-string v1, "Uri.parse(\"jellow:\")"
 
     invoke-static {v0, v1}, Lkotlin/x/d/k;->a(Ljava/lang/Object;Ljava/lang/String;)V
 

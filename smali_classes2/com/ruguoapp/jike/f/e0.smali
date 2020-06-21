@@ -117,7 +117,7 @@
 
     aput-object v0, v2, v3
 
-    const-string v0, "jike://page.jk/\\S*"
+    const-string v0, "(jike|jellow)://page.jk/\\S*"
 
     const/4 v4, 0x1
 

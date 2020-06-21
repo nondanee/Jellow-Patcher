@@ -70,7 +70,7 @@
 
     .line 3
     :cond_0
-    invoke-static {}, La;->a()Ljava/util/Iterator;
+    invoke-static {}, La;->b()Ljava/util/Iterator;
 
     move-result-object v1
 

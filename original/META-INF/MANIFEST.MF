@@ -3,7 +3,7 @@ Built-By: Generated-by-ADT
 Created-By: Android Gradle 3.6.3
 
 Name: AndroidManifest.xml
-SHA-256-Digest: Y4nSIZeriD1ytrjyI4BMNeQHYle3j2AHdirjp1HDSx0=
+SHA-256-Digest: Qb+4q4sDgigErdMHEzHXmyanMaVFWcTaOR1KJvd4mco=
 
 Name: LICENSE_OFL
 SHA-256-Digest: anP5VBwt50FYwOfPawpY73dPWngL8ZHy1+ycxT7+K/I=
@@ -266,7 +266,7 @@ Name: assets/country_code.csv
 SHA-256-Digest: J4IykgJZTgdHUpk7HFwMQftBpLGNLUAza6mHIZxISiE=
 
 Name: assets/crashlytics-build.properties
-SHA-256-Digest: Vb8W3NVPrFFVORS9RgUHOir2uxFWuFtm+mHfLi/xR2U=
+SHA-256-Digest: vgwFehgRTqBt4qEaGjmK3mKv/3MJt3hAK6iRFEKaBfc=
 
 Name: assets/error.html
 SHA-256-Digest: OUh/yStzB/1IECjdKnb0gPvoJihjQ5b1nRV8JJ4pBsk=
@@ -392,7 +392,7 @@ Name: assets/sent_animation.zip
 SHA-256-Digest: zlvswHf2IP7WCi4dLoM41MCPX3M1XCe5VoLV1NUxCS4=
 
 Name: assets/sentry-debug-meta.properties
-SHA-256-Digest: FiJi2MI7yNEJK2Ge65qYnSZwO7rzGp5X2c+Zz3wkUD8=
+SHA-256-Digest: FakH4IY6EOYU2WsmwG8WtRvhKHu17JLLXmTKAgSVyys=
 
 Name: assets/splash_animation.json
 SHA-256-Digest: 8o5yB3+ZpDGp/nuUYO161659pYwVqXjfbidd2Gsw8uY=
@@ -404,10 +404,10 @@ Name: builddef.lst
 SHA-256-Digest: KD9QYVRU8Kht1TBGi/hxpHzMXnL3ecYHVdEztFFMElM=
 
 Name: classes.dex
-SHA-256-Digest: PUXioT3s23Yb8QJ7JEdepV8xgWiVS+BvKME/3DY8H8A=
+SHA-256-Digest: SHVGRZR2i10QEEzbsYcldEt/J4s1v4Uv4Up71ki9zPk=
 
 Name: classes2.dex
-SHA-256-Digest: UYYtrgLO+vD0WS+lPWaT3hLGdnbY4QreMjaQ2SD4Qmg=
+SHA-256-Digest: FZSlmHJ+bbGHc158f1M/6MYhE3xyrHsas/TvZLaMWPM=
 
 Name: fabric/com.crashlytics.sdk.android.answers.properties
 SHA-256-Digest: bcz8EFg8e3NA62WGyyBvVtLNUTiaNZ8LvuNYtUAV38Y=
@@ -7144,10 +7144,10 @@ Name: res/xml/network_security_config.xml
 SHA-256-Digest: SQxSMuMT1t6oH7Biv/gfGvJ89XCRkr+G79op2vdbrk8=
 
 Name: resources.arsc
-SHA-256-Digest: JE0eU4lv96wCcvxIT2l9WGNV9PVIrxEqoMLRkrXxTwQ=
+SHA-256-Digest: GQhOCUU0DsOLmk29X4Tl9UGcrDn0W+9mm0p6dGgvf2E=
 
 Name: sentry.properties
-SHA-256-Digest: OCq/Inl/OWkQqZlhsxqpCVamMqqB36PCZZOaqimLrco=
+SHA-256-Digest: i34hCsqdmBgZS8Q4wrIQwqndDB99UnKZchxDeMlCH3A=
 
 Name: version.txt
 SHA-256-Digest: 8Z4QdJ8iF0pm7jQTkChwxdQlw7l/WzWqAROZAYCGCeI=

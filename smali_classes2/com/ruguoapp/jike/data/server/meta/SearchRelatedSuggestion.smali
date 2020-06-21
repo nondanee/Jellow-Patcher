@@ -53,7 +53,7 @@
 
     aput-object p0, v2, p1
 
-    const-string p1, "jike://page.jk/search?type=%s&keywords=%s"
+    const-string p1, "jellow://page.jk/search?type=%s&keywords=%s"
 
     invoke-static {v1, p1, v2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 

@@ -20,7 +20,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, La;->b()Ljava/util/Iterator;
+    invoke-static {}, La;->a()Ljava/util/Iterator;
 
     move-result-object v0
 

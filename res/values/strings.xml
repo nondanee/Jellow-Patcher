@@ -136,7 +136,7 @@
     <string name="collapse">收起</string>
     <string name="collection_empty">"看到好内容后点击标记收藏
 以后它们就会出现在这里"</string>
-    <string name="com.crashlytics.android.build_id">6783d270-3ae5-4776-b798-f8256b5d9830</string>
+    <string name="com.crashlytics.android.build_id">a0b83d6d-bc53-4e3f-84be-f06a7c82af35</string>
     <string name="comment_deleted">该评论已删除</string>
     <string name="comment_input_forbidden_hint">该条消息的评论功能已关闭</string>
     <string name="confirm_abandon">确认放弃</string>
@@ -356,7 +356,7 @@
     <string name="scan_tips">将二维码对准至框内，即可自动扫描</string>
     <string name="scan_web_tips">"电脑端登录 web.okjike.com
 抢鲜体验Jellow网页版"</string>
-    <string name="scheme">jike</string>
+    <string name="scheme">jellow</string>
     <string name="score_app">给Jellow评分</string>
     <string name="search">搜索</string>
     <string name="search_footer_feedback">没找到？告诉我们你关心什么</string>

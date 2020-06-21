@@ -83,7 +83,7 @@
 
     invoke-static {p2, v0}, Lkotlin/x/d/k;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string p2, "jike://page.jk/user/me"
+    const-string p2, "jellow://page.jk/user/me"
 
     const/4 v0, 0x0
 

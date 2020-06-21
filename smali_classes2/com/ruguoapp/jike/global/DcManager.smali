@@ -29,7 +29,7 @@
 
     new-array v1, v0, [Ljava/lang/Object;
 
-    const/16 v2, 0x398
+    const/16 v2, 0x399
 
     .line 1
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

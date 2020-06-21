@@ -122,7 +122,7 @@
 
     if-eqz v0, :cond_1
 
-    const-string v0, "jike://page.jk/user/me"
+    const-string v0, "jellow://page.jk/user/me"
 
     goto :goto_0
 
@@ -131,7 +131,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "jike://page.jk/user/"
+    const-string v2, "jellow://page.jk/user/"
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

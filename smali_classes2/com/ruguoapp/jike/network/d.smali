@@ -52,14 +52,14 @@
 
     const-string v1, "App-Version"
 
-    const-string v2, "8.2.4"
+    const-string v2, "8.2.5"
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     sget-object v0, Lcom/ruguoapp/jike/network/d;->a:Ljava/util/Map;
 
-    const/16 v1, 0x398
+    const/16 v1, 0x399
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 

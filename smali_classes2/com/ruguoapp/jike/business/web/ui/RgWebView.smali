@@ -397,7 +397,7 @@
 
     invoke-direct {v4, p0, v5}, Lcom/ruguoapp/jike/business/web/ui/RgWebView$e;-><init>(Lcom/ruguoapp/jike/business/web/ui/RgWebView;Ljava/lang/String;)V
 
-    const-string v5, "Jike/8.2.4"
+    const-string v5, "Jike/8.2.5"
 
     .line 17
     invoke-virtual {p0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -785,7 +785,7 @@
 
     aput-object v6, v5, v2
 
-    const-string v6, "8.2.4"
+    const-string v6, "8.2.5"
 
     aput-object v6, v5, v1
 

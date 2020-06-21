@@ -1616,7 +1616,7 @@
 
     const/4 v0, 0x0
 
-    const-string v2, "jike://page.jk/debug"
+    const-string v2, "jellow://page.jk/debug"
 
     .line 5
     invoke-static {v2, v0}, Landroid/content/Intent;->parseUri(Ljava/lang/String;I)Landroid/content/Intent;

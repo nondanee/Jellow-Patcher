@@ -2,7 +2,7 @@
 
 Make Jellow APP work again
 
-Patch on Jellow APP v8.2.4(920) for Android
+Patch on Jellow APP v8.2.5(921) for Android
 
 Check `git log` if you are interested in modification
 

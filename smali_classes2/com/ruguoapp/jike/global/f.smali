@@ -132,7 +132,7 @@
 
     invoke-static {v1, v0}, Lcom/ruguoapp/jike/global/r/a;->a(Landroid/app/Application;Z)V
 
-    const/16 v1, 0x398
+    const/16 v1, 0x399
 
     .line 7
     invoke-static {v1}, Lcom/ruguoapp/jike/global/t/e;->a(I)V

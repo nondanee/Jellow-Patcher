@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android)
-SHA-256-Digest-Manifest: h9BACXW4R14tif4oQPzNcJSP2f81Qpd0HzeC6c7siDU=
+SHA-256-Digest-Manifest: GXqq1yMhRxcg9LJkOIvL+DQ2PxVXIEQVeyAgYDZWHIg=
 X-Android-APK-Signed: 2
 
 Name: AndroidManifest.xml
-SHA-256-Digest: O916mcQ+huMIaqj8kfywzZnagyNrJW40rY3aiu+Qs/E=
+SHA-256-Digest: R694cqRj3KC0or62KzcP82R2uPLKKzCL9Dede1s2EHw=
 
 Name: LICENSE_OFL
 SHA-256-Digest: 7opSdDFJwUjSEPEzhTfNxERRWdq7g47lgUVtbp/NuI0=
@@ -267,7 +267,7 @@ Name: assets/country_code.csv
 SHA-256-Digest: Hlcn0qFkpb7gXENNO+RbvRJQZ/o6IKkjv8D2QQeTrxc=
 
 Name: assets/crashlytics-build.properties
-SHA-256-Digest: VJ/HEHx7ovOTRTyn5bVPDn0G9lkE+e65m9ygSefpM+w=
+SHA-256-Digest: mD4oxGj4uIHYWxka5y4ulQg3GK0VelI6RT/g+IgFzAI=
 
 Name: assets/error.html
 SHA-256-Digest: jlscVXrUelUDVXzEEJR58mQ/qLpwIs+rETFuzBIX2iU=
@@ -393,7 +393,7 @@ Name: assets/sent_animation.zip
 SHA-256-Digest: Br6l/dMd0+EzQBAt1fa9mt54pSCv0f998OAeXnSUx4U=
 
 Name: assets/sentry-debug-meta.properties
-SHA-256-Digest: +090JfvC3ny8vUWXBVQgdfz8vBDtS1RYidpis+lftCw=
+SHA-256-Digest: CXJBPhSfRBK3IGCK73/ngD2zSdcP06vegqmwy+yd+ic=
 
 Name: assets/splash_animation.json
 SHA-256-Digest: UpscqCPCE4dZkTaO3rXXN/O6dl4POy1CEBPmBQTmnTg=
@@ -405,10 +405,10 @@ Name: builddef.lst
 SHA-256-Digest: ESQrrmxfQ8nP2xW7tYLIlcDRMzaQcIfetGMNXChuXMg=
 
 Name: classes.dex
-SHA-256-Digest: e3CJPcnLDPoqvc9XZcoMMO9MmNcJull3K8z/MvOs9mk=
+SHA-256-Digest: 87rHYhuckEsoeidFEs9AjgOuIC49MxBpYNaCrXcFFuE=
 
 Name: classes2.dex
-SHA-256-Digest: Y5b7dWl/BPVSJ2s9Xlz0qp1NtgZur/wRblZNmUoN1kQ=
+SHA-256-Digest: M3gSeoI5/WdwAq8qajxOfziKPAH3wj1uDzLYNVQEyzE=
 
 Name: fabric/com.crashlytics.sdk.android.answers.properties
 SHA-256-Digest: jGSbtJJq2nHMgAzc1wkU0w07a0HPoUz2H4YMjV8Rlno=
@@ -7145,10 +7145,10 @@ Name: res/xml/network_security_config.xml
 SHA-256-Digest: 339I20UE8qujbwSR/rHkVxFZbR9OUuoParVLHB8KrcE=
 
 Name: resources.arsc
-SHA-256-Digest: ELS3JJ6qdyR1jm9adxICnNZ3WgtlvURzbvIhsStpVSo=
+SHA-256-Digest: m03bNyE6+XrqULDfsD0CG4gZcdUhs28E5kXWwTXa5wE=
 
 Name: sentry.properties
-SHA-256-Digest: MnSJjw0MKr1Q0EjiKKRbmgAKosCz9XdZxgO7iKKl0Is=
+SHA-256-Digest: W3/73ziiU1Cv11ThUX90wfgpVUNkO+FiFjPADIYwp98=
 
 Name: version.txt
 SHA-256-Digest: k/sd3WsGu18FoaAiiCMcperOGU7ofLJLOjT5GIK0o8o=
